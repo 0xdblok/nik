@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className=" md:px-24 px-8">
       <Hero />
-      <div>
+      <div className="pt-18">
         <div>
           {" "}
           <Image

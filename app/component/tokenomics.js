@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Tokenomics() {
   return (
-    <section className="p-6 dark:bg-gray-100 dark:text-gray-800">
+    <section className="p-6  dark:bg-gray-100 dark:text-gray-800">
       <div className="container mx-auto">
         <h2 className="text-5xl font-bold text-center dark:text-gray-900">
           TOKENOMICS
