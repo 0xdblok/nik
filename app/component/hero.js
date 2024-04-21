@@ -11,8 +11,8 @@ export default function Hero() {
           className="mx-auto sm:w-10/12  lg:w-1/3"
           src={logo}
           alt="Nikula Tisla"
-          width={250}
-          height={250}
+          width={450}
+          height={450}
         />{" "}
       </div>{" "}
       <div className="space-y-4 flex-1 sm:text-center lg:text-left ">
