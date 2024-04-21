@@ -16,10 +16,11 @@ export default function Hero() {
         />{" "}
       </div>{" "}
       <div className="space-y-4 flex-1 sm:text-center lg:text-left ">
-        <h1 className="text-center font-bold text-4xl xl:text-5xl">
-          Abraham Lincoln
+        <h1 className="text-center  font-bold text-4xl xl:text-5xl">
+          Abr<span className="text-[#2055A4]">ah</span>am{" "}
+          <span className="text-[#2055A4]">Lin</span>coln
         </h1>
-        <p className=" md:px-48 text-center text-lg leading-relaxed sm:mx-auto lg:ml-0">
+        <p className=" md:px-48 text-center text-lg font-medium leading-relaxed sm:mx-auto lg:ml-0">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsum

@@ -6,9 +6,10 @@ import Footer from "./component/footer";
 import Roadmap from "./component/roadmap";
 import hi from "./asset/hi.png";
 import usa from "./asset/usa.png";
+import bg from "./asset/bg.png";
 export default function Home() {
   return (
-    <div className=" md:px-24 px-8">
+    <div className=" bg-gray-100 md:px-24 px-8">
       <Hero />
       <div className="pt-28">
         <div>
@@ -23,7 +24,7 @@ export default function Home() {
         </div>
       </div>
       <Tokenomics />
-      <div>
+      <div className="pt-28">
         <div>
           {" "}
           <Image

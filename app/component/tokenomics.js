@@ -3,15 +3,15 @@ import React from "react";
 export default function Tokenomics() {
   return (
     <section className="p-6  dark:bg-gray-100 dark:text-gray-800">
-      <div className="container mx-auto">
-        <h2 className="text-5xl font-bold text-center dark:text-gray-900">
+      <div className="container mx-auto ">
+        <h2 className="text-6xl font-bold text-center text-[#2055A4]">
           TOKENOMICS
         </h2>
         <div className="grid gap-6 my-16 lg:grid-cols-3">
           <div className="flex flex-col p-8 space-y-4 rounded-md dark:bg-gray-50">
             <div className="flex">
               <div className="flex-shrink-0">
-                <div className="flex items-center justify-center w-12 h-12 rounded-md bg-violet-600 text-gray-50">
+                <div className="flex items-center justify-center w-12 h-12 rounded-md bg-[#2055A4] text-gray-50">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -32,7 +32,7 @@ export default function Tokenomics() {
           <div className="flex flex-col p-8 space-y-4 rounded-md dark:bg-gray-50">
             <div className="flex">
               <div className="flex-shrink-0">
-                <div className="flex items-center justify-center w-12 h-12 rounded-md bg-violet-600 text-gray-50">
+                <div className="flex items-center justify-center w-12 h-12 rounded-md bg-[#2055A4] text-gray-50">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -50,10 +50,10 @@ export default function Tokenomics() {
             </div>
             <p className="text-2xl font-semibold">100% LP</p>
           </div>
-          <div className="flex flex-col p-8 space-y-4 rounded-md dark:bg-gray-50">
+          <div className="flex t  flex-col p-8 space-y-4 rounded-md dark:bg-gray-50">
             <div className="flex">
               <div className="flex-shrink-0">
-                <div className="flex items-center justify-center w-12 h-12 rounded-md bg-violet-600 text-gray-50">
+                <div className="flex items-center justify-center w-12 h-12 rounded-md bg-[#2055A4] text-gray-50">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -74,8 +74,8 @@ export default function Tokenomics() {
           </div>
         </div>
       </div>
-      <h2 className="text-5xl font-bold text-center dark:text-gray-900">
-        CA : TBA
+      <h2 className="md:text-2xl mx-auto container text-sm font-bold text-center dark:text-gray-900">
+        CA : 0x34526352695e42D658ddDab65D9cE8B8E18a75d4
       </h2>
     </section>
   );
