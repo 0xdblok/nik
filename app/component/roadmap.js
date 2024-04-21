@@ -8,7 +8,7 @@ export default function Roadmap() {
     <section className=" :text-gray-800">
       <div className="container max-w-xl p-6 mx-auto lg:px-8 lg:max-w-7xl">
         <div>
-          <h2 className="text-3xl   font-bold tracking-tight text-center sm:text-5xl text-gray-900">
+          <h2 className="text-3xl text-[#2055A4]  font-bold tracking-tight text-center sm:text-5xl ">
             ROADMAP
           </h2>
         </div>
