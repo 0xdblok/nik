@@ -21,9 +21,9 @@ export default function Hero() {
           <span className="text-[#2055A4]">Lin</span>coln
         </h1>
         <p className=" md:px-48 text-center text-lg font-medium leading-relaxed sm:mx-auto lg:ml-0">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum
+          Four score and seven blockchains ago, I would've hodled my top hats,
+          but now I'm all in on 'Lin-Coin' – the only currency that's worth a
+          theatre visit. Gettysburg address? More like Get-rich-burg address!
         </p>
       </div>
     </section>
