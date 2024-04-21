@@ -6,13 +6,13 @@ import roadmap from "./roadmap";
 export default function Roadmap() {
   return (
     <section className="bg-gray-100 :text-gray-800">
-      <div className="container max-w-xl p-6 py-12 mx-auto lg:px-8 lg:max-w-7xl">
+      <div className="container max-w-xl p-6 mx-auto lg:px-8 lg:max-w-7xl">
         <div>
-          <h2 className="text-3xl pt-6 md:pt-24 font-bold tracking-tight text-center sm:text-5xl text-gray-900">
+          <h2 className="text-3xl   font-bold tracking-tight text-center sm:text-5xl text-gray-900">
             ROADMAP
           </h2>
         </div>
-        <div className="md:grid pt-6 lg:gap-8 = md:items-center  md:justify-center">
+        <div className="md:grid pt-6 lg:gap-8  md:items-center  md:justify-center">
           <div className="flex justify-center ">
             <div className=":pt-12 p-6 bg-gray-200  space-y-12">
               <div className="flex">
