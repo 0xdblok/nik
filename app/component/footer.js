@@ -13,7 +13,17 @@ export default function Footer() {
           <Image
             className="lg:w-[40px] lg:h-[40px]"
             src={xx}
-            alt="fallout"
+            alt="x"
+            width={30}
+            height={30}
+          />
+        </a>
+        <a href="https://x.com/aabrahambase">
+          {" "}
+          <Image
+            className="lg:w-[40px] lg:h-[40px]"
+            src={tele}
+            alt="telegram"
             width={30}
             height={30}
           />

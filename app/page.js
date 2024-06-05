@@ -1,41 +1,28 @@
 import Image from "next/image";
 import Hero from "./component/hero";
 import Tokenomics from "./component/tokenomics";
-
+import niku from "./asset/niku.png";
 import Footer from "./component/footer";
 import Roadmap from "./component/roadmap";
 import hi from "./asset/hi.png";
 import usa from "./asset/usa.png";
 import bg from "./asset/bg.png";
+import Inventor from "./component/inventor";
 export default function Home() {
   return (
-    <div className=" bg-gray-100 md:px-24 px-8">
+    <div className=" bg-gray-100 md:px-24 px-12">
       <Hero />
-      <div className="pt-28">
-        <div>
-          {" "}
-          <Image
-            className="mx-auto  sm:w-10/12  lg:w-1/3"
-            src={hi}
-            alt="Nikula Tisla"
-            width={200}
-            height={200}
-          />{" "}
-        </div>
-      </div>
+      <div className="absolute  top-8 lg:left-60 ">
+        <Image
+          className="  lg:w-[200px] lg:h-[200px]"
+          src={niku}
+          alt="Nikula Tisla"
+          width={150}
+          height={150}
+        />{" "}
+      </div>{" "}
       <Tokenomics />
-      <div className="pt-28">
-        <div>
-          {" "}
-          <Image
-            className="mx-auto  sm:w-8/12  lg:w-1/3"
-            src={usa}
-            alt="Nikula Tisla"
-            width={200}
-            height={200}
-          />{" "}
-        </div>
-      </div>
+      <Inventor />
       <Roadmap />
       <Footer />
     </div>

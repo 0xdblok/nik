@@ -11,6 +11,9 @@ module.exports = {
         backgroundImage: {
           "hero-pattern": "url('/nikula/app/asset/bg.png')",
         },
+        fontFamily: {
+          bunge: ["Bungee", "sans-serif"],
+        },
       },
     },
   },

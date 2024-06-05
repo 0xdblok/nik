@@ -4,6 +4,14 @@
 
 
 .test-background {
-    background-image: url('./asset/bg.png');
+    background-image: url('./asset/nik.png');
 
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+  .bunge {
+    font-family: "Bungee", sans-serif;
+    font-weight: 800;
+    font-style: normal;
   }
