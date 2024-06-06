@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Tokenomics() {
   return (
     <div className="pt-36 ">
-      <div className="mx-20 lg:mx-48 xl:mx-66  border-4 border-black  rounded-lg ">
+      <div className="mx-16 lg:mx-48 xl:mx-66  border-4 border-black  rounded-lg ">
         <h1 className="bunge text-center  text-4xl xl:text-5xl">Tokenomics</h1>
       </div>
       <div className="lg:flex justify-center gap-4 w-full pt-8 ">
