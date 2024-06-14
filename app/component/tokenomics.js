@@ -26,17 +26,14 @@ export default function Tokenomics() {
             </h1>
             <p className="text-center bunge">1.000.000.000 </p>
             <h1 className="bunge text-center pt-8 text-xl xl:text-2xl">LP</h1>
-            <p className="text-center bunge">85% </p>
+            <p className="text-center bunge">80% </p>
             <h1 className="bunge text-center pt-8 text-xl xl:text-2xl">
               COMMUNITY
             </h1>
-            <p className="text-center bunge">5% </p>
-            <h1 className="bunge text-center pt-8 text-xl xl:text-2xl">
-              MARKETING
-            </h1>
-            <p className="text-center bunge">7% </p>
+            <p className="text-center bunge">15% </p>
+
             <h1 className="bunge text-center pt-8 text-xl xl:text-2xl">DEV</h1>
-            <p className="text-center bunge">3% </p>
+            <p className="text-center bunge">5% </p>
           </div>
         </div>
       </div>
